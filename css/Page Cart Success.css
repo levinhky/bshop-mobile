@@ -1,0 +1,320 @@
+.checkout-success-container {
+  padding: 0 5px;
+}
+
+.checkout-success-main-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.checkout-success-container > .headline {
+  margin-top: 16px;
+  margin-bottom: 60px;
+}
+
+.checkout-success-container > .headline .short-desc,
+.long-desc {
+  font-size: 16px;
+  line-height: 26px;
+  color: #000;
+  font-weight: 400;
+}
+
+.checkout-success-container > .checkout--method .qr-code,
+.manual-banking {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+.checkout-success-container > .checkout--method .qr-code {
+  margin-top: 25px;
+  text-align: center;
+  padding: 17px 0;
+}
+
+.checkout-success-container > .checkout--method .manual-banking {
+  padding: 17px 17px 75px;
+  margin-top: 20px;
+  margin-bottom: 36px;
+}
+
+.checkout-success-container > .checkout--method .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.checkout-success-container > .checkout--method .bold {
+  font-weight: 500 !important;
+}
+
+.checkout-success-container > .checkout--method .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.checkout-success-container > .checkout--method .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.checkout-success-container > .checkout--method .tooltiptext.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.checkout-success-container > .checkout--method .manual-banking table tr td p {
+  margin-bottom: 12px;
+}
+
+.checkout-success-container
+  > .checkout--method
+  .manual-banking
+  #transfer-content {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 110px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.checkout-success-container > .checkout--method .manual-banking i {
+  font-weight: 400;
+  color: #000000;
+}
+
+.checkout-success-container > .checkout--method .manual-banking .bank-copy {
+  background: #362962;
+  border: 1px solid #362962;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  padding: 1px 15px;
+  height: 20px;
+}
+
+.checkout-success-container
+  > .checkout--method
+  .manual-banking
+  .bank-copy:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.checkout-success-container > .order--info {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  padding: 20px 11px;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+.checkout-success-container > .order--info .order-id {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  width: 193px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.checkout-success-container > .order--info .date-time {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin-top: 13px;
+  margin-bottom: 23px;
+}
+
+.checkout-success-container > .order--info .product-listing table {
+  background-color: #eaeaea;
+}
+
+.checkout-success-container > .order--info .product-listing table thead {
+  background: #362962;
+  color: #fff;
+  transform: translateY(-5px);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.checkout-success-container
+  > .order--info
+  .product-listing
+  table
+  thead
+  tr
+  td {
+    text-align: center;
+  }
+
+.checkout-success-container
+  > .order--info
+  .product-listing
+  table
+  thead
+  tr
+  td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 0 9px;
+  width: 130px;
+  height: 36px;
+}
+
+.checkout-success-container
+  > .order--info
+  .product-listing
+  table
+  thead
+  tr
+  td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 0 9px;
+}
+
+.checkout-success-container > .order--info .product-listing table tbody tr td {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+  text-align: center;
+}
+
+.checkout-success-container
+  > .order--info
+  .product-listing
+  table
+  tbody
+  tr:nth-child(even)
+  td {
+  background-color: #f6f6f6 !important;
+}
+
+.checkout-success-container
+  > .order--info
+  .product-listing
+  table
+  tbody
+  tr
+  td:first-child {
+  padding: 15px 0 15px 10px;
+  text-align: left;
+}
+
+.checkout-success-container > .order--info .product-listing ul {
+  padding: 0;
+  border: 1px solid #e9e9e9;
+  margin-top: 7px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 0;
+}
+
+.checkout-success-container > .order--info .product-listing ul li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 9px 20px 9px 10px;
+}
+
+.checkout-success-container > .order--info .product-listing ul li:last-child {
+  border-bottom: 0;
+  font-weight: 600;
+}
+
+.checkout-success-container > .delivery--info {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.checkout-success-container > .delivery--info .detail {
+  padding: 21px 25px 17px 17px;
+}
+
+.checkout-success-container > .delivery--info .detail table tr td:first-child {
+  width: 180px;
+}
+
+.checkout-success-container > .end--page p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.checkout-success-container > .end--page .actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.checkout-success-container > .end--page .actions button {
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  padding: 10px 40px;
+}
+
+.checkout-success-container > .end--page .actions .register {
+    background: #781919;
+}
+
+.checkout-success-container > .end--page .actions .discover {
+    background: #362962;
+}
