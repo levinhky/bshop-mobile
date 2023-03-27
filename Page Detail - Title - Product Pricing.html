@@ -41,7 +41,6 @@
   </head>
 
   <body>
-    <div class="wrapper">
       <div class="product--detail-info">
         <div class="head d-flex align-items-center justify-content-between">
           <div class="brand-name">L'OREAL</div>
@@ -80,6 +79,19 @@
             <div id="best">BEST</div>
           </div>
 
+          <div class="hotdeal">
+            <div class="thunder">
+              <img src="./imgs/thunder 1.svg" alt="" />
+            </div>
+            <div class="content">
+              <h2 class="title">Hot deal đang diễn ra</h2>
+              <div class="countdown">
+                Kết thúc trong <span>01</span> : <span>35</span> :
+                <span>60</span>
+              </div>
+            </div>
+          </div>
+
           <div class="pricing d-flex align-items-center">
             <h3 class="new-price">339.000 đ</h3>
 
@@ -90,17 +102,57 @@
 
           <p class="saving-message">(Tiết kiệm: <span>61.000 đ</span>)</p>
 
+          <div class="gift-notice">
+            <p class="mb-0">Tặng băng đô cột tóc bất kỳ khi mua hoá đơn từ 599k</p>
+            <p class="mb-0">(Số lượng có hạn)</p>
+          </div>
+
+          <div class="bonus">
+            <span class="d-flex align-items-center head">
+              <img src="./imgs/gift 1.svg" alt="">
+              <p class="mb-0">Quà tặng: Bông Tẩy Trang Ya Samaya (hết quà trừ 15k)</p>
+            </span>
+
+            <div class="options">
+              <div class="item d-flex">
+                <div class="select d-flex align-items-center">
+                  <input type="radio" name="option" id="option">
+                  <img src="./imgs/samaya.svg" alt="">
+                </div>
+                <div class="info">
+                  <p>Bông Tẩy Trang Ya Samaya Cotton Pads (120 Miếng)</p>
+                  <p class="mb-0 price">Giá: <span>25.000 đ</span></p>
+                </div>
+              </div>
+
+              <div class="item d-flex">
+                <div class="select d-flex align-items-center">
+                  <input type="radio" name="option" id="option">
+                  <img src="./imgs/tambong.svg" alt="">
+                </div>
+                <div class="info">
+                  <p>Tăm Bông Jomi Kháng Khuẩn Dành Cho Người Lớn (Hộp 200 cái)</p>
+                  <p class="mb-0 price">Giá: <span>25.000 đ</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="capacity">
             <h4>Dung tích:</h4>
-            
+
             <div class="items d-flex">
               <div class="item active 400ml">
-                <div class="image"><img class="w-100" src="./imgs/anhdungtich.svg" alt="" /></div>
+                <div class="image">
+                  <img class="w-100" src="./imgs/anhdungtich.svg" alt="" />
+                </div>
                 <span>400ML</span>
               </div>
 
               <div class="item 95ml">
-                <div class="image"><img class="w-100" src="./imgs/anhdungtich.svg" alt="" /></div>
+                <div class="image">
+                  <img class="w-100" src="./imgs/anhdungtich.svg" alt="" />
+                </div>
                 <span>95ML</span>
               </div>
             </div>
@@ -110,14 +162,30 @@
             <h4>Số lượng:</h4>
 
             <div class="btns">
-                <span class="minus">-</span>
-                <input type="text" value="1">
-                <span class="plus">+</span>
+              <span class="minus">-</span>
+              <input type="text" value="1" />
+              <span class="plus">+</span>
             </div>
+          </div>
+
+          <div class="actions">
+            <div class="btns">
+              <button class="add-cart">
+                <img src="./imgs/shopping-cart-big.svg" alt="" />
+                <span>Thêm vào giỏ hàng</span>
+              </button>
+              <button class="buy-now">
+                <img src="./imgs/payment.svg" alt="" />
+                <span>Mua ngay</span>
+              </button>
+            </div>
+            <button class="instock-store">
+              <img src="./imgs/location-pin.svg" alt="" />
+              Chi nhánh còn hàng
+            </button>
           </div>
         </div>
       </div>
-    </div>
 
     <!-- ============== Js Files ==============  -->
     <!-- Bootstrap -->
@@ -133,5 +201,6 @@
     <script src="https://www.boshop.vn/Mobilekit_v2-9/HTML/assets/js/plugins/progressbar-js/progressbar.min.js"></script>
     <!-- Base Js File -->
     <script src="https://www.boshop.vn/Mobilekit_v2-9/HTML/assets/js/base.js"></script>
+    <script src="./js/Page Detail - Title - Product Pricing.js"></script>
   </body>
 </html>
