@@ -6,7 +6,7 @@
   background: #f5f6f9;
   border-radius: 10px;
   padding: 2px 7px 2px 11px;
-  margin-bottom: 0;
+  margin-bottom: 14px;
 }
 
 .product--detail > .breadcrumb a {
@@ -58,7 +58,11 @@
     border-radius: 5px;
 }
 
-.product--detail > .thumbnail .small-images-container .small-images .img:nth-child(2)::after {
+.product--detail > .thumbnail .small-images-container .small-images .img.active {
+  position: relative;
+}
+
+.product--detail > .thumbnail .small-images-container .small-images .img.active::after {
   position: absolute;
   content: "";
   top: 0;

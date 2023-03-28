@@ -330,7 +330,7 @@ input,
 
 .product--detail-info > .information .actions .btns button {
   font-weight: 600;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 19px;
   text-transform: uppercase;
   padding: 12px 9px;
@@ -367,4 +367,5 @@ input,
 .product--detail-info > .information .actions .instock-store {
   border: 1px solid #781919;
   padding: 10px;
+  color: #781919;
 }
