@@ -1,0 +1,128 @@
+.wrapper {
+  width: 430px;
+  margin: 0 auto;
+}
+
+.scroll--sticky > .product--sticky {
+  display: flex;
+  background: #f0f0f0;
+  align-items: center;
+  padding: 8px 10px;
+}
+
+.scroll--sticky > .product--sticky .image {
+  width: 76px;
+}
+
+.scroll--sticky > .product--sticky .info {
+  margin-left: 15px;
+}
+
+.scroll--sticky > .product--sticky .info .name {
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.scroll--sticky > .product--sticky .info .price .new-price {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6b1d14;
+}
+
+.scroll--sticky > .product--sticky .info .price .old-price {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration-line: line-through;
+  color: #848484;
+}
+
+.scroll--sticky > .product--sticky .info .saving-message {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.scroll--sticky > .product--sticky .info .saving-message > span {
+  color: #6b1d14;
+}
+
+.scroll--sticky > .product--sticky .info .discount {
+  width: 28px;
+  height: 28px;
+  background: #bbd66a;
+  border-radius: 50%;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll--sticky > .actions--sticky {
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 12px 3px;
+}
+
+.scroll--sticky > .actions--sticky .quantity {
+  display: flex;
+  gap: 8px;
+}
+
+.scroll--sticky > .actions--sticky .quantity .minus,
+input,
+.plus {
+  width: 36px;
+  height: 36px;
+  background: #f5f6f9;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.scroll--sticky > .actions--sticky .quantity input {
+  background: #ffffff;
+  border: 1px solid #f5f6f9;
+  text-align: center;
+  cursor: text;
+}
+
+.scroll--sticky > .actions--sticky .buttons {
+  gap: 6px;
+}
+
+.scroll--sticky > .actions--sticky .buttons button {
+  border-radius: 10px;
+  outline: none;
+  padding: 5px 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+}
+
+.scroll--sticky > .actions--sticky .buttons .add-cart {
+  background-color: #781919;
+  border: 1px solid #781919;
+  color: #fff;
+}
+
+.scroll--sticky > .actions--sticky .buttons .buy-now {
+  background: #bbd66a;
+  border: 1px solid #ebff00;
+}
