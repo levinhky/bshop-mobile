@@ -22,7 +22,7 @@
 }
 
 .scroll--sticky .sticky--bottom.active {
-    transform: translateY(0);
+    transform: translateY(0); 
 }
 
 .scroll--sticky .sticky--top.active {
@@ -136,9 +136,9 @@ input,
 .scroll--sticky > .actions--sticky .buttons button {
   border-radius: 10px;
   outline: none;
-  padding: 5px 15px;
+  padding: 5px 10px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 19px;
   display: flex;
   align-items: center;
