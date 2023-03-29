@@ -70,7 +70,7 @@
 
 .scroll--sticky > .product--sticky .info .saving-message {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 17px;
   color: #000000;
 }
@@ -94,7 +94,6 @@
 }
 
 .scroll--sticky > .actions--sticky {
-  justify-content: space-between;
   background-color: #fff;
   padding: 12px 3px;
   box-shadow: 10px 4px 80px rgba(0, 0, 0, 0.25);
@@ -130,11 +129,7 @@ input,
   cursor: text;
 }
 
-.scroll--sticky > .actions--sticky .buttons {
-  gap: 6px;
-}
-
-.scroll--sticky > .actions--sticky .buttons button {
+.scroll--sticky > .actions--sticky button {
   border-radius: 10px;
   outline: none;
   padding: 5px 10px;
@@ -144,15 +139,24 @@ input,
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
-.scroll--sticky > .actions--sticky .buttons .add-cart {
+.scroll--sticky > .actions--sticky button span {
+  margin-left: 8px;
+}
+
+.scroll--sticky > .actions--sticky button:last-child span{
+  margin-left: 3px;
+}
+
+.scroll--sticky > .actions--sticky .add-cart {
   background-color: #781919;
   border: 1px solid #781919;
   color: #fff;
 }
 
-.scroll--sticky > .actions--sticky .buttons .buy-now {
+.scroll--sticky > .actions--sticky .buy-now {
   background: #bbd66a;
   border: 1px solid #ebff00;
 }
