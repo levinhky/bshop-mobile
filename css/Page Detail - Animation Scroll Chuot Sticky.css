@@ -33,6 +33,7 @@
   display: flex;
   background: #f0f0f0;
   align-items: center;
+  justify-content: space-between; 
   padding: 8px 10px;
 }
 
@@ -93,8 +94,8 @@
 }
 
 .scroll--sticky > .actions--sticky {
-  background-color: #fff;
   justify-content: space-between;
+  background-color: #fff;
   padding: 12px 3px;
   box-shadow: 10px 4px 80px rgba(0, 0, 0, 0.25);
   gap: 8px;
@@ -142,6 +143,7 @@ input,
   line-height: 19px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .scroll--sticky > .actions--sticky .buttons .add-cart {
