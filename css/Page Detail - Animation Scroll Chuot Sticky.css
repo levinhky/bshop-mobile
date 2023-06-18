@@ -2,6 +2,11 @@
   width: 430px;
   margin: 0 auto;
 }
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+body {
+  font-family: 'SF Pro Display', sans-serif;
+}
 
 .scroll--sticky .sticky--top {
     position: fixed;
@@ -33,6 +38,7 @@
   display: flex;
   background: #f0f0f0;
   align-items: center;
+  justify-content: space-between; 
   padding: 8px 10px;
 }
 
@@ -69,9 +75,9 @@
 
 .scroll--sticky > .product--sticky .info .saving-message {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 17px;
-  color: #000000;
+  color: #000;
 }
 
 .scroll--sticky > .product--sticky .info .saving-message > span {
@@ -94,7 +100,6 @@
 
 .scroll--sticky > .actions--sticky {
   background-color: #fff;
-  justify-content: space-between;
   padding: 12px 3px;
   box-shadow: 10px 4px 80px rgba(0, 0, 0, 0.25);
   gap: 8px;
@@ -129,11 +134,7 @@ input,
   cursor: text;
 }
 
-.scroll--sticky > .actions--sticky .buttons {
-  gap: 6px;
-}
-
-.scroll--sticky > .actions--sticky .buttons button {
+.scroll--sticky > .actions--sticky button {
   border-radius: 10px;
   outline: none;
   padding: 5px 10px;
@@ -142,15 +143,25 @@ input,
   line-height: 19px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-.scroll--sticky > .actions--sticky .buttons .add-cart {
+.scroll--sticky > .actions--sticky button span {
+  margin-left: 8px;
+}
+
+.scroll--sticky > .actions--sticky button:last-child span{
+  margin-left: 3px;
+}
+
+.scroll--sticky > .actions--sticky .add-cart {
   background-color: #781919;
   border: 1px solid #781919;
   color: #fff;
 }
 
-.scroll--sticky > .actions--sticky .buttons .buy-now {
+.scroll--sticky > .actions--sticky .buy-now {
   background: #bbd66a;
   border: 1px solid #ebff00;
 }

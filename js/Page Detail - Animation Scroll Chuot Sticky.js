@@ -9,3 +9,18 @@ function scrollFunction() {
     document.querySelector(".scroll--sticky .sticky--top ").classList.remove("active");
   }
 }
+
+const stickyMinusBtn = document.querySelector(".scroll--sticky .actions--sticky .quantity .minus");
+const stickyPlusBtn = document.querySelector(".scroll--sticky .actions--sticky .quantity .plus");
+
+stickyMinusBtn.addEventListener("click", () => {
+  let input = stickyMinusBtn.parentElement.querySelector("input");
+  input.value--;
+});
+
+stickyPlusBtn.addEventListener("click", () => {
+  let input = stickyMinusBtn.parentElement.querySelector("input");
+  input.value++;
+});
+
+
